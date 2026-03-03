@@ -135,6 +135,7 @@ button,
   gap: 50px;
   justify-content: center;
   padding-bottom: 70px;
+  flex-wrap: wrap;
 }
 
 .single-information {
