@@ -21,8 +21,6 @@ h1 {
 }
 
 h2 {
-    color: #1F2937;
-    font-size: 36px;
     font-weight: 900;
 }
 
@@ -46,13 +44,18 @@ button {
     border-radius: 10px;
 }
 
+p {
+    max-width: 450px;
+}
+
+h2, .testimonial p {
+    color: #1F2937;
+    font-size: 36px;
+}
+
 p, button, .links, .description-right, .footer {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-p {
-    max-width: 450px;
 }
 
 .links {
@@ -104,6 +107,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 175px;
 }
 
 .information h2 {
@@ -146,5 +150,23 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 40px 17px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 175px 80px;
+}
+
+.testimonial p {
+    font-weight: 300;
+    min-width: 800px;
+}
+
+.author {
+    font-weight: 500;
 }
