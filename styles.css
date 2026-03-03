@@ -178,13 +178,14 @@ button,
   padding: 100px 175px 80px;
 }
 
-.testimonial p {
+.testimonial p, .author{
   font-weight: 300;
   min-width: 800px;
 }
 
 .author {
   font-weight: 500;
+  text-align: right;
 }
 
 .sign-up {
